@@ -1,0 +1,25 @@
+---
+title: "Example Deck Title"
+subtitle: "Course name / department (e.g. IS 101, GE Cluster)"
+date: 2000-01-01
+format: revealjs
+---
+
+## This is a template
+
+Copy this folder to `YYYY-MM-DD-course-name/`, edit the frontmatter above,
+and start writing slides. Delete this example folder once you have a real
+deck in place.
+
+## Slide two
+
+- Bullet one
+- Bullet two
+- Bullet three
+
+## Speaker notes
+
+::: {.notes}
+Notes here are visible in speaker view (press `s` while presenting) but not
+on the slide itself.
+:::

@@ -1,0 +1,14 @@
+---
+title: "Class Visit Slides"
+listing:
+  contents: "*/slides.qmd"
+  type: table
+  fields: [date, title, subtitle]
+  field-display-names:
+    subtitle: "Class / audience"
+  sort: "date desc"
+  sort-ui: false
+  filter-ui: false
+---
+
+Slide decks for guest lectures and class visits, built with [Quarto](https://quarto.org/docs/presentations/revealjs/) reveal.js. Each row links to the rendered deck.

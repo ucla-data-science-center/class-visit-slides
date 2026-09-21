@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - "*/slides.qmd"
+
+website:
+  title: "Class Visit Slides"
+  page-navigation: false
+  navbar:
+    left:
+      - text: "All decks"
+        href: index.html
+
+format:
+  html:
+    theme: cosmo
+  revealjs:
+    theme: default
+    slide-number: true
+    embed-resources: true
