@@ -1,0 +1,177 @@
+[
+  {
+    "objectID": "2000-01-01-example-course/slides.html#this-is-a-template",
+    "href": "2000-01-01-example-course/slides.html#this-is-a-template",
+    "title": "Example Deck Title",
+    "section": "This is a template",
+    "text": "This is a template\nCopy this folder to YYYY-MM-DD-course-name/, edit the frontmatter above, and start writing slides. Delete this example folder once you have a real deck in place."
+  },
+  {
+    "objectID": "2000-01-01-example-course/slides.html#slide-two",
+    "href": "2000-01-01-example-course/slides.html#slide-two",
+    "title": "Example Deck Title",
+    "section": "Slide two",
+    "text": "Slide two\n\nBullet one\nBullet two\nBullet three"
+  },
+  {
+    "objectID": "2000-01-01-example-course/slides.html#speaker-notes",
+    "href": "2000-01-01-example-course/slides.html#speaker-notes",
+    "title": "Example Deck Title",
+    "section": "Speaker notes",
+    "text": "Speaker notes\n\nNotes here are visible in speaker view (press s while presenting) but not on the slide itself."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Class Visit Slides",
+    "section": "",
+    "text": "Slide decks for guest lectures and class visits, built with Quarto reveal.js. Each row links to the rendered deck.\n\n\n\n\n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nClass / audience\n\n\n\n\n\n\n\n\nOct 13, 2026\n\n\nData Management and Sharing Plans and the Role of Libraries\n\n\nIS 262A guest lecture\n\n\n\n\n\n\nJan 1, 2000\n\n\nExample Deck Title\n\n\nCourse name / department (e.g. IS 101, GE Cluster)\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "2026-10-13-is262a-dmp/slides.html#why-data-management-plans-matter",
+    "href": "2026-10-13-is262a-dmp/slides.html#why-data-management-plans-matter",
+    "title": "Data Management and Sharing Plans and the Role of Libraries",
+    "section": "Why data management plans matter",
+    "text": "Why data management plans matter\n\nFunders treat DMPs as proposal and reporting documents.\nResearchers get more value when they also use them as working plans.\nGood plans support reproducibility, ethical practice, and long-term reuse of the work.\n\n\nPlans change. Data, methods, collaborators, access conditions, and research questions shift over the life of a project. A DMP written once and filed away stops being useful.\n\n\nWelcome the class and thank the instructor for the invitation. Briefly introduce your current role at UCLA Library (unit name is in flux with the 2026 reorg, confirm your own title and affiliation before class rather than assuming the old Data Science Center name still applies).\nSet the tone early: a DMP is not paperwork you write once. The practical framing in this lecture builds on Library Carpentry’s DMP101 module (Library Carpentry 2022).\nPrompt: ask students to think of the last time they documented a data workflow, and how specific they actually were."
+  },
+  {
+    "objectID": "2026-10-13-is262a-dmp/slides.html#the-research-data-lifecycle",
+    "href": "2026-10-13-is262a-dmp/slides.html#the-research-data-lifecycle",
+    "title": "Data Management and Sharing Plans and the Role of Libraries",
+    "section": "The research data lifecycle",
+    "text": "The research data lifecycle\n\n\n\nCioffi, Goldman & Marchese, Harvard, CC BY-NC 4.0\n\n\nPlanning shapes every later stage, but a plan has to flex as the project moves through the cycle.\nThe DMP is the connective document. It links what happens today to what happens after the grant ends.\nNotice “Store & Manage” sits at the center, not as one stage among others. Storage and data safety touch every phase, not just one step in the loop.\n\n\n\nAsk which stage tends to cause the most trouble for their disciplines. Use this to set up why plans change instead of standing still: new collaborators, a change in method, a repository that turns out not to fit, a funder requirement that shifts mid-project.\nDiagram is CC BY-NC 4.0 from Harvard Medical School / Harvard University (Cioffi et al. 2023). Non-commercial classroom use is covered by the license; if this deck is ever repurposed for anything commercial, swap it out first."
+  },
+  {
+    "objectID": "2026-10-13-is262a-dmp/slides.html#anatomy-of-a-strong-plan",
+    "href": "2026-10-13-is262a-dmp/slides.html#anatomy-of-a-strong-plan",
+    "title": "Data Management and Sharing Plans and the Role of Libraries",
+    "section": "Anatomy of a strong plan",
+    "text": "Anatomy of a strong plan\n\n\n\n\n\n\n\n\n\nSection\nWhat it covers\n\n\n\n\nData description\nTypes, formats, and approximate volume\n\n\nDocumentation\nMetadata standards, READMEs, data dictionaries\n\n\nStorage and backup\nWhere data live during the project, and how they’re protected\n\n\nSharing and access\nTimelines, access conditions, and licensing or reuse terms\n\n\n\n\n\n\n\n\n\n\n\nSection\nWhat it covers\n\n\n\n\nConsent and compliance\nPrivacy, consent, IRB, contractual, and legal constraints\n\n\nRepository and preservation\nWhere data land long-term, and how they stay usable\n\n\nRoles, retention, and cost\nWho’s responsible, how long data are kept, and what it costs\n\n\n\n\n\nWalk through this quickly and connect each row to a real workflow rather than treating it as compliance text.\nKeep storage, synchronization, backup, and preservation conceptually distinct: storage is where data live day to day, sync keeps copies consistent across devices, backup protects against loss, and preservation is a longer-term commitment to keep data usable after the project ends. They’re often handled by different tools and different people.\nMention that some funders allow data-management costs to be budgeted directly into a proposal (storage, curation time, repository fees)."
+  },
+  {
+    "objectID": "2026-10-13-is262a-dmp/slides.html#weak-and-strong-plan-language",
+    "href": "2026-10-13-is262a-dmp/slides.html#weak-and-strong-plan-language",
+    "title": "Data Management and Sharing Plans and the Role of Libraries",
+    "section": "Weak and strong plan language",
+    "text": "Weak and strong plan language\nSharing\n\n\n\n\n\n\nWeak\n\n\n“Available upon request.”\n\n\n\n\n\n\n\n\n\nStrong\n\n\n“De-identified survey data will be published in UCLA Dataverse under an appropriate reuse license within six months of project end.”\n\n\n\n\n\nStorage\n\n\n\n\n\n\nWeak\n\n\n“Data will be backed up regularly.”\n\n\n\n\n\n\n\n\n\nStrong\n\n\n“Data are stored on UCLA Box during the project, with version history retained, and archived to the department’s research storage at project close.”\n\n\n\n\n\n\nSmall phrasing differences reveal whether the researcher has actually thought through logistics. Encourage students to use language that describes concrete actions and named tools rather than intentions.\nTwo deliberate corrections from earlier versions of this lecture: don’t present CC BY as the automatic license for all data, use “an appropriate reuse license or terms of use,” since the right choice depends on the data and the funder. And don’t promise “nightly backup” for UCLA Box unless you can point to an authoritative UCLA source confirming that. Version history is the claim we can actually stand behind."
+  },
+  {
+    "objectID": "2026-10-13-is262a-dmp/slides.html#how-librarians-support-researchers",
+    "href": "2026-10-13-is262a-dmp/slides.html#how-librarians-support-researchers",
+    "title": "Data Management and Sharing Plans and the Role of Libraries",
+    "section": "How librarians support researchers",
+    "text": "How librarians support researchers\n\nReview and strengthen DMP language before submission.\nMap funder and repository requirements to the specific project.\nAdvise on metadata, formats, identifiers, and licensing.\nPoint to campus infrastructure and services: UCLA Dataverse, Redivis, Merritt, and others.\nIdentify issues that need referral, and connect researchers with IRB, privacy, information security, legal, contracts, or tribal authorities.\n\n\nLibrarians usually identify and route compliance questions. They don’t make binding legal, IRB, security, or tribal-governance decisions themselves.\n\n\nThis is a boundary worth stating plainly, since students sometimes assume a librarian’s sign-off carries legal weight it doesn’t. The librarian’s job is to spot the issue early and get it to the right expert, not to adjudicate it.\nAlso flag that FAIR and open are not synonyms. Data can be FAIR (findable, accessible, interoperable, reusable) under restricted access conditions. “Accessible” in FAIR refers to accessible metadata and a clear access mechanism, not necessarily open access to the data itself.\nTransition: “Let’s look at what this support looks like on the ground.”"
+  },
+  {
+    "objectID": "2026-10-13-is262a-dmp/slides.html#the-data-interview",
+    "href": "2026-10-13-is262a-dmp/slides.html#the-data-interview",
+    "title": "Data Management and Sharing Plans and the Role of Libraries",
+    "section": "The data interview",
+    "text": "The data interview\n\nModeled on the reference interview, but focused on data.\nAsk early: what formats, what volume, how sensitive, who owns it.\nThe answers shape both the plan and the project’s long-term access.\n\n\nThis is often the first concrete step a librarian takes with a new project, usually before the DMP itself is drafted. It surfaces storage, sharing, or compliance gaps while there’s still time to change course."
+  },
+  {
+    "objectID": "2026-10-13-is262a-dmp/slides.html#common-problems-and-librarian-interventions",
+    "href": "2026-10-13-is262a-dmp/slides.html#common-problems-and-librarian-interventions",
+    "title": "Data Management and Sharing Plans and the Role of Libraries",
+    "section": "Common problems and librarian interventions",
+    "text": "Common problems and librarian interventions\n\nVague or missing sharing statements → propose a specific repository, timeline, and license.\nWeak metadata and documentation → recommend a standard, a README template, a data dictionary.\nUnclear storage or backup strategy → separate “where data live” from “how they’re protected.”\nUnresolved ethics or consent questions → flag early, route to IRB or privacy office.\nUndefined roles → name who deposits, who maintains, who answers questions after the grant ends.\n\n\nTransition: “Here are three examples from UCLA practice that show how these issues surface in review.” These are anonymized composites drawn from UCLA practice, not independently published case studies, so describe them that way rather than as established external facts."
+  },
+  {
+    "objectID": "2026-10-13-is262a-dmp/slides.html#case-scraping-craigslist-for-housing-data",
+    "href": "2026-10-13-is262a-dmp/slides.html#case-scraping-craigslist-for-housing-data",
+    "title": "Data Management and Sharing Plans and the Role of Libraries",
+    "section": "Case: scraping Craigslist for housing data",
+    "text": "Case: scraping Craigslist for housing data\n\n\n\n\n\nA project proposed collecting rental listings and landlord contact information to study post-incarceration housing access.\nCraigslist’s current terms prohibit automated or manual collection of its content without permission (craigslist, Inc. 2026).\nThe plan also raised privacy and possible human-subjects questions.\nThe team paused collection while it reconsidered its method and consulted the appropriate campus offices.\n\n\n\nDon’t say a librarian “legally prohibited” or “personally halted” the project. What happened is that librarian review surfaced the terms-of-use conflict early, before the proposal went out, giving the team time to redesign the method.\nCraigslist’s Terms of Use prohibit collecting content “via robots, spiders, scripts, scrapers, crawlers, or any automated or manual equivalent (e.g., by hand)” (craigslist, Inc. 2026). Worth reading that clause aloud, students are often surprised manual collection is covered too.\nTakeaway: ethical and legal checks belong in every DMP review, not just ones that look sensitive on their face."
+  },
+  {
+    "objectID": "2026-10-13-is262a-dmp/slides.html#case-drone-imagery-over-tribal-land",
+    "href": "2026-10-13-is262a-dmp/slides.html#case-drone-imagery-over-tribal-land",
+    "title": "Data Management and Sharing Plans and the Role of Libraries",
+    "section": "Case: drone imagery over tribal land",
+    "text": "Case: drone imagery over tribal land\n\nA project proposed depositing aerial imagery collected over tribal land in a public repository.\nThe team recommended pausing the deposit while the researchers consulted the relevant tribal nation and appropriate campus experts.\nThe CARE Principles for Indigenous Data Governance helped frame questions about collective benefit, authority to control, responsibility, and ethics.\n\n\nDon’t say the librarians “required” CARE. Describe CARE as a governance framework the team used to ask better questions, and as a complement to FAIR rather than a replacement for it: FAIR is about making data usable, CARE is about who has authority over it and who benefits.\nSay “the relevant tribal nation,” not a generic “tribal representatives.” Which nation matters, and treating it as interchangeable undercuts the point of the case.\nTakeaway: data sovereignty and ethical deposit decisions go hand in hand, and the library’s role here was to slow the process down enough for the right consultation to happen."
+  },
+  {
+    "objectID": "2026-10-13-is262a-dmp/slides.html#case-linking-voter-and-clinical-data",
+    "href": "2026-10-13-is262a-dmp/slides.html#case-linking-voter-and-clinical-data",
+    "title": "Data Management and Sharing Plans and the Role of Libraries",
+    "section": "Case: linking voter and clinical data",
+    "text": "Case: linking voter and clinical data\n\nA project combined purchased historical voter data (names, addresses) with clinical data from UCLA Health, held under restricted access.\nLinking identifiable voter records with clinical information changed the risk profile of the combined dataset.\nReview covered the data-use agreement, IRB protocol, consent and permitted uses, access controls, the approved computing environment, and the sharing and retention plan.\n\n\nData linkage can make the combined dataset more sensitive than either source considered separately.\n\n\nAvoid suggesting the problem arose simply because the work crossed disciplines. The issue was the linkage and the resulting identifiability, not the fact that voter data and clinical data came from different fields. Mention how the DMP itself had to be revised once the linkage was proposed, since the original plan didn’t anticipate it."
+  },
+  {
+    "objectID": "2026-10-13-is262a-dmp/slides.html#what-changed-in-federal-dmp-requirements-in-2026",
+    "href": "2026-10-13-is262a-dmp/slides.html#what-changed-in-federal-dmp-requirements-in-2026",
+    "title": "Data Management and Sharing Plans and the Role of Libraries",
+    "section": "What changed in federal DMP requirements in 2026",
+    "text": "What changed in federal DMP requirements in 2026\n\nNSF: starting April 27, 2026, DMSPs are completed as a form in Research.gov instead of uploaded as a two-page PDF (National Science Foundation 2026).\nNIH: a simplified, structured DMS Plan format applies to applications submitted for due dates on or after May 25, 2026. It uses mostly yes/no questions, a short limitations section, and a data-type-and-repository table (National Institutes of Health 2026a).\nNIH: starting October 1, 2026, changes to an approved DMS Plan are reported through the RPPR instead of a separate prior-approval request (National Institutes of Health 2026b).\nStructured forms make plans easier to validate. They aren’t automatically a complete machine-actionable DMP, and some in the field warn that funder-specific structured formats could fragment the DMP ecosystem unless they can still interoperate with each other (Upstream (FORCE11) 2026).\n\n\nThe controlling notice takes precedence over any older page that still describes the two-page PDF upload, check the notice date if a student finds conflicting guidance.\nNIH’s simplified format came out of a review of over 1,100 submitted DMS Plans that found many ran long and included unnecessary narrative detail (National Institutes of Health 2026a). NIH expects active awards to transition to the new reporting approach during FY 2027.\nThe RPPR change (National Institutes of Health 2026b) retires the old DMS Prior Approval Request module in eRA Commons, worth mentioning if any students have used it.\nThe closing point draws on an April 2026 Upstream/FORCE11 piece (Upstream (FORCE11) 2026) that’s still the freshest substantive commentary on this as of the lecture date: NSF and NIH each built their own structured format rather than a shared one, and the piece argues for splitting a DMP into a lightweight proposal-stage plan versus a fuller “living” plan maintained post-award, which lines up well with the UCLA workflow slide coming up."
+  },
+  {
+    "objectID": "2026-10-13-is262a-dmp/slides.html#a-ucla-planning-and-review-workflow",
+    "href": "2026-10-13-is262a-dmp/slides.html#a-ucla-planning-and-review-workflow",
+    "title": "Data Management and Sharing Plans and the Role of Libraries",
+    "section": "A UCLA planning and review workflow",
+    "text": "A UCLA planning and review workflow\n\nResearcher drafts a funder-specific plan.\nLibrarian reviews it and identifies questions or referrals.\nProject staff implement the storage, documentation, access, and consent commitments.\nThe plan is updated as methods, data, collaborators, or restrictions change.\nData and related outputs are deposited, preserved, restricted, or disposed of as promised.\nThe project reports progress and changes to the funder.\n\n\nPresent this as a loop, not a one-way pipeline, step 4 feeds back into steps 1 through 3 continuously over the life of the project, not just once at the start."
+  },
+  {
+    "objectID": "2026-10-13-is262a-dmp/slides.html#dmptool-demonstration",
+    "href": "2026-10-13-is262a-dmp/slides.html#dmptool-demonstration",
+    "title": "Data Management and Sharing Plans and the Role of Libraries",
+    "section": "DMPTool demonstration",
+    "text": "DMPTool demonstration\n\nLog in through UCLA’s institutional single sign-on.\nOpen a current NIH or NSF template and show how institutional fields populate automatically.\nShow the ORCID connection: a registered plan gets a persistent DMP ID and can appear as a work on the creator’s ORCID record.\nShow where a plan can link to project outputs, such as a dataset or publication, once they exist.\n\n\nKeep this under 10 minutes and keep it visual.\nTest the exact workflow before class each year, DMPTool has been updating its institutional sign-on and its NIH/NSF templates through 2026, and features can shift. If research-output linking or a specific template field can’t be reliably demonstrated live, use a screenshot instead and say so.\nQuestion for the class: which section do you think most researchers struggle to complete?"
+  },
+  {
+    "objectID": "2026-10-13-is262a-dmp/slides.html#from-a-static-document-to-a-machine-actionable-plan",
+    "href": "2026-10-13-is262a-dmp/slides.html#from-a-static-document-to-a-machine-actionable-plan",
+    "title": "Data Management and Sharing Plans and the Role of Libraries",
+    "section": "From a static document to a machine-actionable plan",
+    "text": "From a static document to a machine-actionable plan\n\nA conventional DMP is written mainly for a person to read.\nA machine-actionable DMP represents key facts in structured fields that systems can exchange, validate, and update: ORCID iDs, RORs, funder and award identifiers, DMP IDs, dataset DOIs, repository identifiers, licenses, access conditions, retention periods, and costs.\nExample chain: a researcher creates a plan in DMPTool → DMPTool registers a DMP ID as a DOI → the plan connects to the researcher’s ORCID record → a dataset later gets its own DOI → that DOI is added as a related output → DataCite can expose the relationships among researcher, plan, project, and output (DataCite 2026; California Digital Library 2026a).\n\n\nMachine-actionable doesn’t mean fully automated. Structured information can reduce repeated data entry and connect systems, but ethical decisions, consent restrictions, and repository suitability still need human judgment.\n\n\nA DMP ID is technically a DOI with resourceTypeGeneral set to OutputManagementPlan, available since DataCite schema 4.4 (DataCite 2026).\nThe RDA DMP Common Standard provides the interoperability model behind this (Research Data Alliance DMP Common Standards Working Group 2026). Make clear it doesn’t impose any funder’s specific business rules, it’s a shared way to express DMP content, not a policy.\nIf there’s time, mention that this isn’t just a DMPTool feature: the EU’s OSTrails project published a standardized API (built on the same RDA standard) in April 2026 for exchanging maDMPs between different institutions’ tools and repositories, not just within one platform (OSTrails Project 2026). Useful for showing the trend is bigger than one vendor."
+  },
+  {
+    "objectID": "2026-10-13-is262a-dmp/slides.html#matching-data-with-repositories-and-services",
+    "href": "2026-10-13-is262a-dmp/slides.html#matching-data-with-repositories-and-services",
+    "title": "Data Management and Sharing Plans and the Role of Libraries",
+    "section": "Matching data with repositories and services",
+    "text": "Matching data with repositories and services\n\nUCLA Dataverse: citable data publication, with both open and restricted-file workflows (re3data.org 2026).\nDryad: curated publication of openly shareable research data, free to UC researchers and archived long-term through Merritt (California Digital Library 2026b).\nRedivis: controlled-access data management and analysis platform, built for data with real privacy or governance constraints (Redivis 2026).\nMerritt: the UC system’s preservation repository, generally reached through an organizational account or a service like Dryad rather than direct self-service deposit.\nDomain repositories, identified through funder or disciplinary guidance, for data with a natural community home.\n\n\nDistinguish two words students tend to conflate: “sensitive” describes the data and its risks, “restricted” describes an access condition. Marking a dataset restricted doesn’t by itself make sensitive data safe or appropriate to deposit, the sensitivity has to be addressed first.\nDon’t imply Merritt is a self-service destination for any UCLA researcher walking in the door. It’s infrastructure other services sit on top of."
+  },
+  {
+    "objectID": "2026-10-13-is262a-dmp/slides.html#metadata-documentation-and-persistent-identifiers",
+    "href": "2026-10-13-is262a-dmp/slides.html#metadata-documentation-and-persistent-identifiers",
+    "title": "Data Management and Sharing Plans and the Role of Libraries",
+    "section": "Metadata, documentation, and persistent identifiers",
+    "text": "Metadata, documentation, and persistent identifiers\n\nDescriptive and disciplinary metadata make a dataset findable and interpretable.\nREADMEs, data dictionaries, and codebooks explain what’s inside and how it was produced.\nVersion and provenance notes track how the data changed over time.\nPersistent identifiers such as DOIs, ORCID iDs, and RORs identify and resolve people, places, and things.\n\n\nA DOI identifies and resolves an object. Its metadata describes the object and how it relates to other things. The DOI itself isn’t metadata.\n\n\nThis replaces an older, vaguer framing (“metadata is what turns data into knowledge”) with something more precise: metadata and documentation are what make data interpretable and reusable by someone who wasn’t in the room when it was collected."
+  },
+  {
+    "objectID": "2026-10-13-is262a-dmp/slides.html#software-gets-its-own-treatment",
+    "href": "2026-10-13-is262a-dmp/slides.html#software-gets-its-own-treatment",
+    "title": "Data Management and Sharing Plans and the Role of Libraries",
+    "section": "Software gets its own treatment",
+    "text": "Software gets its own treatment\n\nNSF’s DMP guidance explicitly lists software alongside data, samples, and other materials as something a plan must address. NIH’s policy covers “scientific data,” but code needed to interpret or reproduce that data usually rides along with it.\nSome funders go further and require a separate Software Management Plan (SMP) for projects producing substantial code (Software Sustainability Institute 2026).\nGive software the same three things data gets:\n\nLicense: pick one before you publish, don’t leave it implicit.\nIdentifier: a CITATION.cff file (GitHub reads it natively) or a Zenodo / Software Heritage DOI.\nDocumentation: a README, a dependency list, enough context for someone else to rerun it.\n\n\n\nFAIR4RS (2022), a joint RDA/FORCE11/ReSA effort, adapts the FAIR principles specifically for software, since software’s differences from data (it runs, it has versions, it depends on other software) mean the data-FAIR guidance doesn’t map cleanly onto it (FAIR4RS Working Group 2022).\nTwo citation-metadata formats come up constantly: CITATION.cff is a YAML file, human-writable, and both GitHub and Zenodo read it directly. CodeMeta is a JSON-LD format, better suited if the software needs to be indexed by registries like Software Heritage or bio.tools, or needs to document dependencies and runtime requirements (CASRAI 2026).\nSoftware Heritage is worth naming as the software equivalent of a preservation repository: as of 2026 it’s a recognized UN digital public good archiving over 27 billion source files, and every archived object gets a SWHID, a content-derived identifier that lets it be cited and retrieved independent of any single forge (GitHub, GitLab, etc.) (Software Heritage 2026)."
+  },
+  {
+    "objectID": "2026-10-13-is262a-dmp/slides.html#exercise-match-the-data-to-a-plan",
+    "href": "2026-10-13-is262a-dmp/slides.html#exercise-match-the-data-to-a-plan",
+    "title": "Data Management and Sharing Plans and the Role of Libraries",
+    "section": "Exercise: match the data to a plan",
+    "text": "Exercise: match the data to a plan\nSmall groups, 10 minutes. For each example, discuss:\n\nWhat information is missing from the plan?\nShould the data be open, restricted, embargoed, or not deposited at all?\nWhat repository or service might fit?\nWhat approvals or agreements might apply?\nWhat documentation and identifiers does it need?\n\n\nSensitive clinical interview transcripts\nLarge 3D scans or drone imagery\nOpen survey data in CSV\nResearch code and software\n\n\nWalk around while groups discuss. Push back gently if a group converges on one “obvious” answer too quickly, most of these examples support more than one reasonable path depending on details the prompt doesn’t specify, and that ambiguity is the point."
+  },
+  {
+    "objectID": "2026-10-13-is262a-dmp/slides.html#takeaways-resources-and-contact",
+    "href": "2026-10-13-is262a-dmp/slides.html#takeaways-resources-and-contact",
+    "title": "Data Management and Sharing Plans and the Role of Libraries",
+    "section": "Takeaways, resources, and contact",
+    "text": "Takeaways, resources, and contact\n\nDMPs work best as living plans, not one-time paperwork.\nLibrarians identify and route compliance questions. They don’t make binding legal, IRB, security, or tribal-governance decisions.\nStructured, machine-actionable plans connect systems, but human judgment still decides what’s ethical and appropriate.\n\nResources: DMPTool · UCLA Dataverse · re3data.org · FAIRsharing.org\nContact\nTim Dennis, UCLA Library (tdennis@library.ucla.edu)\nJamie Jamison, UCLA Library (jamison@library.ucla.edu)\nAdapted from Library Carpentry DMP101 (CC BY 4.0) (Library Carpentry 2022). 2025 version archived at doi.org/10.5281/zenodo.17360886 (Dennis and Jamison 2025).\n\nOpen discussion before this slide: what patterns did students see in the weak plans, and how could library support have improved them? Summarize briefly, thank the instructor and the class, and take final questions."
+  },
+  {
+    "objectID": "2026-10-13-is262a-dmp/slides.html#glossary",
+    "href": "2026-10-13-is262a-dmp/slides.html#glossary",
+    "title": "Data Management and Sharing Plans and the Role of Libraries",
+    "section": "Glossary",
+    "text": "Glossary\n\n\nDMP: Data Management Plan\nDMSP / DMS Plan: Data Management and Sharing Plan (NSF’s and NIH’s specific term for a DMP)\nNSF: National Science Foundation\nNIH: National Institutes of Health\nIRB: Institutional Review Board\nDOI: Digital Object Identifier, a persistent ID for a published object\nORCID: a persistent ID for a researcher, not an institution\nROR: Research Organization Registry, a persistent ID for an institution\n\nRDA: Research Data Alliance\nRPPR: Research Performance Progress Report (an NIH reporting form)\nFAIR: Findable, Accessible, Interoperable, Reusable (data principles, not a synonym for “open”)\nCARE: Collective Benefit, Authority to Control, Responsibility, Ethics (Indigenous data governance)\nmaDMP: machine-actionable DMP\nSMP: Software Management Plan\nSWHID: a Software Heritage identifier for a specific piece of archived code\nCC BY / CC BY-NC: Creative Commons license types. BY requires attribution; BY-NC also restricts commercial use.\n\n\nNot meant to be read aloud. Point students to this slide (and the hoverable &lt;abbr&gt; tags throughout, when viewing on a screen rather than projected) if terminology gets in the way of the discussion."
+  },
+  {
+    "objectID": "2026-10-13-is262a-dmp/slides.html#references",
+    "href": "2026-10-13-is262a-dmp/slides.html#references",
+    "title": "Data Management and Sharing Plans and the Role of Libraries",
+    "section": "References",
+    "text": "References\n\n\nCalifornia Digital Library. 2026a. DMP IDs and Networked Data Management Plans (maDMPs). DMPTool. https://github.com/CDLUC3/dmptool/wiki/DMP-IDs-and-Networked-Data-Management-Plans-(maDMPs).\n\n\nCalifornia Digital Library. 2026b. Dryad at the California Digital Library. https://cdlib.org/services/uc3/dryad/.\n\n\nCASRAI. 2026. CodeMeta Vs CITATION.cff: Software Citation Metadata. https://casrai.org/compare/codemeta-vs-citation-cff/.\n\n\nCioffi, Matt, Julie Goldman, and Sarah Marchese. 2023. Harvard Biomedical Research Data Lifecycle. Zenodo. https://doi.org/10.5281/zenodo.8076168.\n\n\ncraigslist, Inc. 2026. Terms of Use. https://www.craigslist.org/about/terms.of.use/en.\n\n\nDataCite. 2026. What Is a DMP ID? https://support.datacite.org/docs/what-is-a-dmp-id.\n\n\nDennis, Tim, and Jamie Jamison. 2025. Data Management Plans and the Role of Libraries (IS 262A Guest Lecture). Zenodo. https://doi.org/10.5281/zenodo.17360886.\n\n\nFAIR4RS Working Group. 2022. “Introducing the FAIR Principles for Research Software.” Scientific Data 9: 622. https://doi.org/10.1038/s41597-022-01710-x.\n\n\nLibrary Carpentry. 2022. Data Management Plans (DMP101). https://librarycarpentry.org/.\n\n\nNational Institutes of Health. 2026a. NOT-OD-26-046: Simplified Structured Data Management and Sharing Plan Format. https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-046.html.\n\n\nNational Institutes of Health. 2026b. NOT-OD-26-100: Reporting Changes to an Approved Data Management and Sharing Plan Through the RPPR. https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-100.html.\n\n\nNational Science Foundation. 2026. Chapter II.c.2.j(xi): Data Management and Sharing Plan Requirements (PAPPG 24-1, Supplement 2). https://www.nsf.gov/policies/document/pappg24-1-supplement-2.\n\n\nOSTrails Project. 2026. OSTrails Data Management Plan Interoperability Framework (DMP-IF) Factsheet. Zenodo. https://zenodo.org/records/19115854.\n\n\nre3data.org. 2026. UCLA Dataverse. https://www.re3data.org/repository/r3d100010703.\n\n\nRedivis. 2026. Redivis Documentation. https://docs.redivis.com/.\n\n\nResearch Data Alliance DMP Common Standards Working Group. 2026. RDA DMP Common Standard for Machine-Actionable Data Management Plans. https://rda-dmp-common.github.io/RDA-DMP-Common-Standard/.\n\n\nSoftware Heritage. 2026. Software Heritage Archive Recognized as a Digital Public Good. https://www.softwareheritage.org/2026/01/21/software-heritage-archive-digital-public-good/.\n\n\nSoftware Sustainability Institute. 2026. Writing and Using a Software Management Plan. https://www.software.ac.uk/guide/writing-and-using-software-management-plan.\n\n\nUpstream (FORCE11). 2026. What Is the Future of Data Management Plans? Upstream / DMPTool Blog. https://upstream.force11.org/what-is-the-future-of-data-management-plans/."
+  }
+]
