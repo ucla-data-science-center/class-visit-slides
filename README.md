@@ -4,6 +4,9 @@ Reveal.js slide decks for guest lectures and one-off class visits, built with
 [Quarto](https://quarto.org/docs/presentations/revealjs/). Published to
 GitHub Pages on every push to `main`.
 
+**Live site:** <https://ucla-data-science-center.github.io/class-visit-slides/>
+**Repo:** <https://github.com/ucla-data-science-center/class-visit-slides>
+
 ## Adding a new deck
 
 1. Copy the template folder:

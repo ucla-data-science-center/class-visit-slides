@@ -4,6 +4,8 @@ Guest lecture slide deck for IS 262A (UCLA Graduate School of Education and
 Information Studies), presented by Tim Dennis and Jamie Jamison, UCLA
 Library.
 
+**Live:** <https://ucla-data-science-center.github.io/class-visit-slides/2026-10-13-is262a-dmp/slides.html>
+
 **Audience:** graduate students in information studies.
 **Duration:** approximately 45–60 minutes, including a DMPTool demonstration
 and small-group discussion.
