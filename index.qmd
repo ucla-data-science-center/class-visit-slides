@@ -1,5 +1,8 @@
 ---
 title: "Class Visit Slides"
+format:
+  html:
+    theme: cosmo
 listing:
   contents: "*/slides.qmd"
   type: table

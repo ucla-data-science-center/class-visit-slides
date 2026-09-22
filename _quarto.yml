@@ -1,9 +1,5 @@
 project:
   type: website
-  output-dir: _site
-  render:
-    - index.qmd
-    - "*/slides.qmd"
 
 website:
   title: "Class Visit Slides"
@@ -14,8 +10,6 @@ website:
         href: index.html
 
 format:
-  html:
-    theme: cosmo
   revealjs:
     theme: default
     slide-number: true
