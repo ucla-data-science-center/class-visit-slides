@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 130" role="img" aria-labelledby="t d">
+  <title id="t">Machine-actionable DMP identifier chain</title>
+  <desc id="d">Five linked steps: a plan created in DMPTool, registered as a DMP ID DOI, linked to the researcher's ORCID record, a dataset DOI added as a related output, and DataCite exposing the relationships.</desc>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#005587"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "Atkinson Hyperlegible", Arial, sans-serif; fill: #003B5C; }
+    .h { font-size: 22px; font-weight: 700; }
+    .s { font-size: 16px; }
+    .box { fill: #eef4fa; stroke: #2774AE; stroke-width: 2.5; }
+    .end { fill: #FFD100; stroke: #003B5C; stroke-width: 2.5; }
+    .arr { stroke: #005587; stroke-width: 3; fill: none; marker-end: url(#a); }
+  </style>
+  <g class="arr">
+    <path d="M182 65H228"/><path d="M412 65H458"/><path d="M642 65H688"/><path d="M872 65H918"/>
+  </g>
+  <rect class="box" x="2" y="20" width="180" height="90" rx="10"/>
+  <text class="h" x="92" y="58" text-anchor="middle">Plan</text>
+  <text class="s" x="92" y="84" text-anchor="middle">created in DMPTool</text>
+  <rect class="box" x="232" y="20" width="180" height="90" rx="10"/>
+  <text class="h" x="322" y="58" text-anchor="middle">DMP ID</text>
+  <text class="s" x="322" y="84" text-anchor="middle">registered as a DOI</text>
+  <rect class="box" x="462" y="20" width="180" height="90" rx="10"/>
+  <text class="h" x="552" y="58" text-anchor="middle">ORCID record</text>
+  <text class="s" x="552" y="84" text-anchor="middle">plan linked to creator</text>
+  <rect class="box" x="692" y="20" width="180" height="90" rx="10"/>
+  <text class="h" x="782" y="58" text-anchor="middle">Dataset DOI</text>
+  <text class="s" x="782" y="84" text-anchor="middle">added as related output</text>
+  <rect class="end" x="922" y="20" width="176" height="90" rx="10"/>
+  <text class="h" x="1010" y="58" text-anchor="middle">DataCite</text>
+  <text class="s" x="1010" y="84" text-anchor="middle">exposes relationships</text>
+</svg>

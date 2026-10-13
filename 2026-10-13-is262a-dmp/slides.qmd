@@ -14,6 +14,8 @@ format:
     footer: "IS 262A &middot; Data Management Plans &middot; 2026"
     bibliography: references.bib
     link-citations: true
+    title-slide-attributes:
+      data-background-color: "#003B5C"
 ---
 
 ## Why data management plans matter
@@ -226,9 +228,16 @@ ones that look sensitive on their face.
 
 ## Case: drone imagery over tribal land
 
+::: {.columns}
+::: {.column width="42%"}
+![Quadcopter drone in flight. Photo by Project Kei, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Quadcopter_Drone_in_flight.jpg).](img/drone-quadcopter-in-flight.jpg){fig-alt="A black quadcopter drone with four spinning propellers hovering against a blue sky with thin white clouds."}
+:::
+::: {.column width="58%"}
 - A project proposed depositing aerial imagery collected over tribal land in a public repository.
 - The team recommended pausing the deposit while the researchers consulted the relevant tribal nation and appropriate campus experts.
 - The <abbr title="Collective Benefit, Authority to Control, Responsibility, Ethics">CARE</abbr> Principles for Indigenous Data Governance helped frame questions about collective benefit, authority to control, responsibility, and ethics.
+:::
+:::
 
 ::: {.notes}
 Don't say the librarians "required" CARE. Describe CARE as a governance
@@ -247,9 +256,16 @@ right consultation to happen.
 
 ## Case: linking voter and clinical data
 
+::: {.columns}
+::: {.column width="34%"}
+![Official ballot drop box, Washington, DC. Photo by Tony Webster, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Official_Ballot_Drop_Box_-_District_of_Columbia_Elections_-_DC.jpg).](img/ballot-drop-box-dc.jpg){fig-alt="A gray metal official mail-in ballot drop box on a city sidewalk outside a glass-fronted building, with a blue A-frame sign reading Official Mail-In Ballot Drop Box."}
+:::
+::: {.column width="66%"}
 - A project combined purchased historical voter data (names, addresses) with clinical data from UCLA Health, held under restricted access.
 - Linking identifiable voter records with clinical information changed the risk profile of the combined dataset.
 - Review covered the data-use agreement, IRB protocol, consent and permitted uses, access controls, the approved computing environment, and the sharing and retention plan.
+:::
+:::
 
 > Data linkage can make the combined dataset more sensitive than either source considered separately.
 
@@ -292,12 +308,19 @@ workflow slide coming up.
 
 ## A UCLA planning and review workflow
 
+::: {.columns}
+::: {.column width="50%"}
 1. Researcher drafts a funder-specific plan.
 2. Librarian reviews it and identifies questions or referrals.
 3. Project staff implement the storage, documentation, access, and consent commitments.
 4. The plan is updated as methods, data, collaborators, or restrictions change.
 5. Data and related outputs are deposited, preserved, restricted, or disposed of as promised.
 6. The project reports progress and changes to the funder.
+:::
+::: {.column width="50%"}
+![](img/dmp-review-loop.svg){fig-alt="Six steps arranged in a loop: 1 Draft (researcher), 2 Review (librarian), 3 Implement (project staff), 4 Update (as things change), 5 Deposit (preserve or restrict), 6 Report (to the funder), then back to Draft. The center reads: a loop, not a pipeline."}
+:::
+:::
 
 ::: {.notes}
 Present this as a loop, not a one-way pipeline, step 4 feeds back into
@@ -329,7 +352,8 @@ struggle to complete?
 
 - A conventional DMP is written mainly for a person to read.
 - A machine-actionable DMP represents key facts in structured fields that systems can exchange, validate, and update: ORCID iDs, <abbr title="Research Organization Registry">ROR</abbr>s, funder and award identifiers, DMP IDs, dataset <abbr title="Digital Object Identifier">DOI</abbr>s, repository identifiers, licenses, access conditions, retention periods, and costs.
-- Example chain: a researcher creates a plan in DMPTool &rarr; DMPTool registers a DMP ID as a DOI &rarr; the plan connects to the researcher's ORCID record &rarr; a dataset later gets its own DOI &rarr; that DOI is added as a related output &rarr; DataCite can expose the relationships among researcher, plan, project, and output [@datacite_dmpid; @dmptool_madmp].
+
+![Example identifier chain [@datacite_dmpid; @dmptool_madmp]](img/madmp-chain.svg){fig-alt="Five linked steps: a plan created in DMPTool, registered as a DMP ID DOI, linked to the creator's ORCID record, a dataset DOI added as a related output, and DataCite exposing the relationships among them."}
 
 > Machine-actionable doesn't mean fully automated. Structured information can reduce repeated data entry and connect systems, but ethical decisions, consent restrictions, and repository suitability still need human judgment.
 
@@ -415,28 +439,6 @@ retrieved independent of any single forge (GitHub, GitLab, etc.)
 [@software_heritage2026].
 :::
 
-## Exercise: match the data to a plan
-
-**Small groups, 10 minutes.** For each example, discuss:
-
-- What information is missing from the plan?
-- Should the data be open, restricted, embargoed, or not deposited at all?
-- What repository or service might fit?
-- What approvals or agreements might apply?
-- What documentation and identifiers does it need?
-
-1. Sensitive clinical interview transcripts
-2. Large 3D scans or drone imagery
-3. Open survey data in CSV
-4. Research code and software
-
-::: {.notes}
-Walk around while groups discuss. Push back gently if a group converges
-on one "obvious" answer too quickly, most of these examples support more
-than one reasonable path depending on details the prompt doesn't specify,
-and that ambiguity is the point.
-:::
-
 ## Takeaways, resources, and contact
 
 - DMPs work best as living plans, not one-time paperwork.
@@ -446,8 +448,9 @@ and that ambiguity is the point.
 **Resources:** [DMPTool](https://dmptool.org) &middot; [UCLA Dataverse](https://dataverse.ucla.edu) &middot; [re3data.org](https://re3data.org) &middot; [FAIRsharing.org](https://fairsharing.org)
 
 **Contact**\
-Tim Dennis, UCLA Library (tdennis@library.ucla.edu)\
-Jamie Jamison, UCLA Library (jamison@library.ucla.edu)
+Tim Dennis, Data Librarian (tdennis@library.ucla.edu)\
+Jamie Jamison, Data Collections Manager (jamison@library.ucla.edu)\
+Ashley Peterson, Digital Scholarship Librarian for the Arts & Humanities (ashleypeterson@library.ucla.edu)
 
 Adapted from Library Carpentry *DMP101* (CC BY 4.0) [@lc_dmp101]. 2025 version archived at [doi.org/10.5281/zenodo.17360886](https://doi.org/10.5281/zenodo.17360886) [@dennis_jamison_2025].
 
