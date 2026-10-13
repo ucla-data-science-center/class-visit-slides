@@ -279,9 +279,9 @@ proposed, since the original plan didn't anticipate it.
 
 ## What changed in federal DMP requirements in 2026
 
-- <abbr title="National Science Foundation">NSF</abbr>: starting April 27, 2026, <abbr title="Data Management and Sharing Plan">DMSP</abbr>s are completed as a form in Research.gov instead of uploaded as a two-page PDF [@nsf2026dmsp].
+- <abbr title="National Science Foundation">NSF</abbr>: for proposals submitted on or after April 27, 2026, the <abbr title="Data Management and Sharing Plan">DMSP</abbr> is a form in Research.gov instead of a two-page PDF upload. Data supporting NSF-funded publications must be shared at the time of publication [@nsf2026dmsp].
 - <abbr title="National Institutes of Health">NIH</abbr>: a simplified, structured DMS Plan format applies to applications submitted for due dates on or after May 25, 2026. It uses mostly yes/no questions, a short limitations section, and a data-type-and-repository table [@nih2026structured].
-- NIH: starting October 1, 2026, changes to an approved DMS Plan are reported through the <abbr title="Research Performance Progress Report">RPPR</abbr> instead of a separate prior-approval request [@nih2026rppr].
+- NIH: starting October 1, 2026, changes to an approved DMS Plan are reported through the <abbr title="Research Performance Progress Report">RPPR</abbr> instead of a separate prior-approval request [@nih2026rppr]. Career development (K) awards were exempted from DMS Plan requirements on October 5 [@nih2026kawards].
 - Structured forms make plans easier to validate. They aren't automatically a complete machine-actionable DMP, and some in the field warn that funder-specific structured formats could fragment the DMP ecosystem unless they can still interoperate with each other [@force11_future_dmps2026].
 
 ::: {.notes}
@@ -289,21 +289,40 @@ The controlling notice takes precedence over any older page that still
 describes the two-page PDF upload, check the notice date if a student
 finds conflicting guidance.
 
-NIH's simplified format came out of a review of over 1,100 submitted DMS
-Plans that found many ran long and included unnecessary narrative detail
-[@nih2026structured]. NIH expects active awards to transition to the new
-reporting approach during FY 2027.
+NSF's change is more than a format swap: the revised text also requires
+sharing the data that support NSF-funded publications at the time of
+publication, with any exceptions described and justified in the plan
+[@nsf2026dmsp]. Collaborative projects submit one combined plan, and a
+justified statement that no detailed plan is needed is allowed.
 
-The RPPR change [@nih2026rppr] retires the old DMS Prior Approval Request
-module in eRA Commons, worth mentioning if any students have used it.
+NIH's simplified format came out of a review of over 1,100 DMS Plans
+that found many ran long and included unnecessary narrative detail
+[@nih2026structured]. Existing awards transition on different routes
+depending on status: just-in-time review for pending applications, the
+next RPPR for active awards, and no later than the FY 2027 RPPR
+[@nih2026rppr].
 
-The closing point draws on an April 2026 Upstream/FORCE11 piece
-[@force11_future_dmps2026] that's still the freshest substantive
-commentary on this as of the lecture date: NSF and NIH each built their
+The RPPR change [@nih2026rppr] removes the separate prior-approval
+requirement for modifying an approved plan, and NIH plans to retire the
+DMS Prior Approval Request type in the eRA Commons Prior Approval Module.
+Other award approvals, such as a change in project scope, still apply.
+
+Newest development: on October 5, 2026 NIH exempted career development
+(K) awards from DMS Plan requirements, effective immediately, for active,
+pending, and future applications [@nih2026kawards]. So check the award
+type, not just the date, when a student asks about a particular grant.
+
+Other agencies move on their own schedules (USDA, DOE, and NASA all have
+their own plans and timelines), so don't extrapolate the NSF form change
+to them.
+
+The closing point draws on a March 2026 Upstream/FORCE11 article by Grady
+and Praetzellis [@force11_future_dmps2026]: NSF and NIH each built their
 own structured format rather than a shared one, and the piece argues for
 splitting a DMP into a lightweight proposal-stage plan versus a fuller
 "living" plan maintained post-award, which lines up well with the UCLA
-workflow slide coming up.
+workflow slide coming up. Present it as their analysis, not as an
+established finding.
 :::
 
 ## A UCLA planning and review workflow
@@ -358,29 +377,29 @@ struggle to complete?
 > Machine-actionable doesn't mean fully automated. Structured information can reduce repeated data entry and connect systems, but ethical decisions, consent restrictions, and repository suitability still need human judgment.
 
 ::: {.notes}
-A DMP ID is technically a DOI with resourceTypeGeneral set to
-`OutputManagementPlan`, available since DataCite schema 4.4
-[@datacite_dmpid].
+A DataCite DMP ID is a DOI registered with resourceTypeGeneral set to
+`OutputManagementPlan`, supported since DataCite schema 4.4
+[@datacite_dmpid]. Other identifier types are possible in principle, so
+say "DataCite DMP ID" when precision matters.
 
 The RDA DMP Common Standard provides the interoperability model behind
 this [@rda_dmp_standard]. Make clear it doesn't impose any funder's
 specific business rules, it's a shared way to express DMP content, not
 a policy.
 
-If there's time, mention that this isn't just a DMPTool feature: the EU's
-OSTrails project published a standardized API (built on the same RDA
-standard) in April 2026 for exchanging maDMPs between different
-institutions' tools and repositories, not just within one platform
-[@ostrails_dmpif2026]. Useful for showing the trend is bigger than one
-vendor.
+If there's time, mention that this isn't just a DMPTool feature: an
+April 2026 factsheet from the EU's OSTrails project describes a common
+REST API and data model (built on the same RDA standard) for exchanging
+maDMPs between research services [@ostrails_dmpif2026]. Useful for
+showing the trend is bigger than one vendor.
 :::
 
 ## Matching data with repositories and services
 
 - **UCLA Dataverse**: citable data publication, with both open and restricted-file workflows [@ucla_dataverse_re3data].
-- **Dryad**: curated publication of openly shareable research data, free to UC researchers and archived long-term through Merritt [@cdl_dryad].
+- **Dryad**: curated publication of openly shareable research data, no cost to UC researchers through UC's institutional membership, and archived long-term through Merritt [@cdl_dryad].
 - **Redivis**: controlled-access data management and analysis platform, built for data with real privacy or governance constraints [@redivis_docs].
-- **Merritt**: the UC system's preservation repository, generally reached through an organizational account or a service like Dryad rather than direct self-service deposit.
+- **Merritt**: the UC system's preservation repository, with account-based collections, a deposit interface, and an API. It also sits behind services such as Dryad [@cdl_merritt].
 - Domain repositories, identified through funder or disciplinary guidance, for data with a natural community home.
 
 ::: {.notes}
@@ -389,9 +408,9 @@ the data and its risks, "restricted" describes an access condition.
 Marking a dataset restricted doesn't by itself make sensitive data safe
 or appropriate to deposit, the sensitivity has to be addressed first.
 
-Don't imply Merritt is a self-service destination for any UCLA
-researcher walking in the door. It's infrastructure other services sit
-on top of.
+Don't imply Merritt is a destination any UCLA researcher can simply walk
+up to. Access is tied to accounts and collections, and much of its use is
+as infrastructure other services sit on top of.
 :::
 
 ## Metadata, documentation, and persistent identifiers
@@ -401,7 +420,7 @@ on top of.
 - Version and provenance notes track how the data changed over time.
 - Persistent identifiers such as DOIs, ORCID iDs, and RORs identify and resolve people, places, and things.
 
-> A DOI identifies and resolves an object. Its metadata describes the object and how it relates to other things. The DOI itself isn't metadata.
+> A DOI identifies an object and resolves to information about it. It is one metadata element, not a substitute for descriptive metadata.
 
 ::: {.notes}
 This replaces an older, vaguer framing ("metadata is what turns data
@@ -412,11 +431,11 @@ the room when it was collected.
 
 ## Software gets its own treatment
 
-- NSF's DMP guidance explicitly lists software alongside data, samples, and other materials as something a plan must address. NIH's policy covers "scientific data," but code needed to interpret or reproduce that data usually rides along with it.
-- Some funders go further and require a separate Software Management Plan (SMP) for projects producing substantial code [@ssi_smp].
+- NSF's sharing requirements include software. NIH's DMS Policy covers scientific data, while separate NIH guidance encourages sharing research software.
+- Some funders explicitly require software management planning, within a broader plan or as a separate Software Management Plan (SMP) [@ssi_smp].
 - Give software the same three things data gets:
   - **License**: pick one before you publish, don't leave it implicit.
-  - **Identifier**: a `CITATION.cff` file (GitHub reads it natively) or a Zenodo / Software Heritage DOI.
+  - **Identifier and citation**: a Zenodo DOI or a Software Heritage SWHID to identify it, and a `CITATION.cff` file (GitHub reads it natively) to say how to cite it.
   - **Documentation**: a README, a dependency list, enough context for someone else to rerun it.
 
 ::: {.notes}
@@ -426,17 +445,21 @@ data (it runs, it has versions, it depends on other software) mean the
 data-FAIR guidance doesn't map cleanly onto it [@fair4rs2022].
 
 Two citation-metadata formats come up constantly: `CITATION.cff` is a
-YAML file, human-writable, and both GitHub and Zenodo read it directly.
-CodeMeta is a JSON-LD format, better suited if the software needs to be
-indexed by registries like Software Heritage or bio.tools, or needs to
-document dependencies and runtime requirements [@codemeta_cff].
+YAML file, human-writable, and GitHub reads it directly
+[@github_citation_files; @citation_file_format]. Zenodo also supports it
+for GitHub releases, but if a `.zenodo.json` file is present Zenodo uses
+that instead [@zenodo_describe_software]. CodeMeta is a JSON-LD
+vocabulary, better suited if the software needs richer descriptive
+metadata such as dependencies and runtime requirements [@codemeta_project].
+The choice depends on the workflow.
 
 Software Heritage is worth naming as the software equivalent of a
-preservation repository: as of 2026 it's a recognized UN digital public
-good archiving over 27 billion source files, and every archived object
-gets a SWHID, a content-derived identifier that lets it be cited and
-retrieved independent of any single forge (GitHub, GitLab, etc.)
-[@software_heritage2026].
+preservation repository. It was recognized as a digital public good by
+the Digital Public Goods Alliance in January 2026, and reported over 27
+billion unique source files from 421 million projects. Archived software
+artifacts can be cited with a SWHID, a content-derived identifier that
+doesn't depend on any single forge (GitHub, GitLab, etc.)
+[@software_heritage2026]. A SWHID is not a DOI.
 :::
 
 ## Takeaways, resources, and contact
@@ -469,9 +492,9 @@ briefly, thank the instructor and the class, and take final questions.
 **NSF**: National Science Foundation\
 **NIH**: National Institutes of Health\
 **IRB**: Institutional Review Board\
-**DOI**: Digital Object Identifier, a persistent ID for a published object\
-**ORCID**: a persistent ID for a researcher, not an institution\
-**ROR**: Research Organization Registry, a persistent ID for an institution
+**DOI**: Digital Object Identifier, a persistent, resolvable ID for an object\
+**ORCID**: a persistent ID for a person contributing to research, not an institution\
+**ROR**: Research Organization Registry, a persistent ID for a research organization
 :::
 ::: {.column width="50%"}
 **RDA**: Research Data Alliance\

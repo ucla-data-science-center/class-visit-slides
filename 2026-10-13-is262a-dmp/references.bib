@@ -8,38 +8,61 @@
 }
 
 @misc{nsf2026dmsp,
-  title        = {Chapter II.C.2.j(xi): Data Management and Sharing Plan Requirements ({PAPPG} 24-1, Supplement 2)},
+  title        = {Policy Notice: Proposal and Award Policies and Procedures Guide ({PAPPG}) 24-1, Supplement 2 ({NSF} 26-202)},
   author       = {{National Science Foundation}},
   year         = {2026},
   url          = {https://www.nsf.gov/policies/document/pappg24-1-supplement-2},
-  note         = {Accessed September 2026. Describes the transition to a Research.gov DMSP tool for proposals submitted on or after April 27, 2026.}
+  urldate      = {2026-10-13},
+  note         = {Issued January 22, 2026. Data Management and Sharing Plan revision in Chapter II.D.2.(i).(ii). The Research.gov DMSP tool is released April 27, 2026; proposals submitted before that date keep the PDF upload. Requires sharing data supporting NSF-funded publications at the time of publication.}
 }
 
 @misc{ssi_smp,
   title        = {Writing and Using a Software Management Plan},
   author       = {{Software Sustainability Institute}},
-  year         = {2026},
   url          = {https://www.software.ac.uk/guide/writing-and-using-software-management-plan},
-  note         = {Accessed September 2026. Some funders (e.g. UK EPSRC's Software for the Future call, NSF SI2) require software to be addressed directly in, or alongside, the data management plan.}
+  urldate      = {2026-10-13},
+  note         = {Funder examples in the guide (UK EPSRC Software for the Future, NSF SI2) refer to historical calls; SI2 was consolidated into CSSI in 2018.}
 }
 
 @article{fair4rs2022,
   title        = {Introducing the {FAIR} Principles for Research Software},
-  author       = {{FAIR4RS Working Group}},
+  author       = {Barker, Michelle and Chue Hong, Neil P. and Katz, Daniel S. and Lamprecht, Anna-Lena and Martinez-Ortiz, Carlos and Psomopoulos, Fotis and Harrow, Jennifer and Castro, Leyla Jael and Gruenpeter, Morane and Martinez, Paula Andrea and Honeyman, Tom},
   year         = {2022},
   journal      = {Scientific Data},
   volume       = {9},
   pages        = {622},
   doi          = {10.1038/s41597-022-01710-x},
-  note         = {Jointly convened by the Research Software Alliance (ReSA), FORCE11, and the Research Data Alliance (RDA). Adapts the FAIR data principles for the specific properties of software (it runs, has versions, has dependencies).}
+  note         = {Published October 14, 2022. Developed by the FAIR4RS Working Group, jointly convened by the Research Software Alliance (ReSA), FORCE11, and the Research Data Alliance (RDA).}
 }
 
-@misc{codemeta_cff,
-  title        = {{CodeMeta} vs {CITATION.cff}: Software Citation Metadata},
-  author       = {{CASRAI}},
-  year         = {2026},
-  url          = {https://casrai.org/compare/codemeta-vs-citation-cff/},
-  note         = {Accessed September 2026. CITATION.cff (YAML) is read natively by GitHub and Zenodo; CodeMeta (JSON-LD) additionally documents dependencies/runtime and is used for indexing by registries like Software Heritage and bio.tools.}
+@misc{citation_file_format,
+  title        = {Citation File Format ({CFF})},
+  author       = {{Citation File Format project}},
+  url          = {https://citation-file-format.github.io/},
+  urldate      = {2026-10-13}
+}
+
+@misc{github_citation_files,
+  title        = {About {CITATION} files},
+  author       = {{GitHub}},
+  howpublished = {GitHub Docs},
+  url          = {https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files},
+  urldate      = {2026-10-13}
+}
+
+@misc{zenodo_describe_software,
+  title        = {Describe software},
+  author       = {{Zenodo}},
+  url          = {https://help.zenodo.org/docs/github/describe-software/},
+  urldate      = {2026-10-13},
+  note         = {Zenodo supports CITATION.cff and .zenodo.json for GitHub releases; if both are present, only .zenodo.json is used.}
+}
+
+@misc{codemeta_project,
+  title        = {The {CodeMeta} Project},
+  author       = {{CodeMeta Project}},
+  url          = {https://codemeta.github.io/},
+  urldate      = {2026-10-13}
 }
 
 @misc{software_heritage2026,
@@ -47,116 +70,141 @@
   author       = {{Software Heritage}},
   year         = {2026},
   url          = {https://www.softwareheritage.org/2026/01/21/software-heritage-archive-digital-public-good/},
-  note         = {Published January 21, 2026. As of 2026 the archive preserves over 27 billion unique source files from 421 million projects; every archived object receives a SWHID, a content-derived identifier independent of any single hosting platform.}
+  urldate      = {2026-10-13},
+  note         = {Published January 21, 2026. Recognized by the Digital Public Goods Alliance. Reports over 27 billion unique source files from 421 million projects; archived software artifacts can be referenced with SWHIDs, content-derived identifiers independent of any single hosting platform.}
 }
 
 @misc{force11_future_dmps2026,
   title        = {What Is the Future of Data Management Plans?},
-  author       = {{Upstream (FORCE11)}},
+  author       = {Grady, Becky and Praetzellis, Maria},
   year         = {2026},
-  howpublished = {Upstream / DMPTool Blog},
+  howpublished = {Upstream},
+  doi          = {10.54900/fbq63-61s08},
   url          = {https://upstream.force11.org/what-is-the-future-of-data-management-plans/},
-  note         = {Published April 15, 2026; cross-posted to blog.dmptool.org the same date. Argues that funder-specific structured DMP formats (NSF, NIH) risk fragmenting the DMP ecosystem unless the underlying data also interoperates across systems, and proposes distinguishing a lightweight proposal-stage plan from a fuller post-award living plan.}
+  urldate      = {2026-10-13},
+  note         = {Published March 31, 2026 (cross-posted to the DMPTool blog April 15, 2026). Argues that funder-specific structured DMP formats (NSF, NIH) risk fragmenting the DMP ecosystem unless the underlying data also interoperates across systems, and proposes distinguishing a lightweight proposal-stage plan from a fuller post-award living plan.}
 }
 
 @misc{ostrails_dmpif2026,
-  title        = {{OSTrails} Data Management Plan Interoperability Framework ({DMP}-{IF}) Factsheet},
-  author       = {{OSTrails Project}},
+  title        = {{OSTrails} Factsheet - Data Management Plan Interoperability Framework},
+  author       = {{OSTrails}},
   year         = {2026},
   howpublished = {Zenodo},
+  doi          = {10.5281/zenodo.19115854},
   url          = {https://zenodo.org/records/19115854},
-  note         = {Published April 23, 2026, CC BY 4.0. Defines a standardized REST API and data model, built on the RDA DMP Common Standard, for exchanging maDMPs between DMP platforms, repositories, and workflow services across the EU's EOSC ecosystem.}
+  note         = {Two-page factsheet published April 23, 2026, CC BY 4.0. Describes a standardized common REST API and data model, built on the RDA DMP Common Standard, for exchanging maDMPs between research services.}
 }
 
 @misc{nih2026structured,
-  title        = {{NOT-OD-26-046}: Simplified Structured Data Management and Sharing Plan Format},
+  title        = {{NOT-OD-26-046}: Updated Elements of an {NIH} Data Management and Sharing Plan},
   author       = {{National Institutes of Health}},
   year         = {2026},
   url          = {https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-046.html},
-  note         = {Applies to applications submitted for due dates on or after May 25, 2026.}
+  urldate      = {2026-10-13},
+  note         = {Released February 25, 2026. Applies to applications submitted for due dates on or after May 25, 2026.}
 }
 
 @misc{nih2026rppr,
-  title        = {{NOT-OD-26-100}: Reporting Changes to an Approved Data Management and Sharing Plan through the {RPPR}},
+  title        = {{NOT-OD-26-100}: Implementation Update: {NIH} Data Management and Sharing Plan Requirements},
   author       = {{National Institutes of Health}},
   year         = {2026},
   url          = {https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-100.html},
-  note         = {Effective October 1, 2026. Replaces the DMS Prior Approval Request process.}
+  urldate      = {2026-10-13},
+  note         = {Released July 29, 2026. Reporting changes through the RPPR effective October 1, 2026; plans to retire the DMS Prior Approval Request type in the eRA Commons Prior Approval Module.}
+}
+
+@misc{nih2026kawards,
+  title        = {{NOT-OD-26-120}: Accelerated Implementation of Data Management and Sharing Plan Changes for {NIH} Career Development ({K}) Awards},
+  author       = {{National Institutes of Health}},
+  year         = {2026},
+  url          = {https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-120.html},
+  urldate      = {2026-10-13},
+  note         = {Released October 5, 2026. Removes DMS Plan requirements for active, pending, and future K awards, effective immediately.}
 }
 
 @misc{dmptool_madmp,
   title        = {{DMP} {IDs} and Networked Data Management Plans (maDMPs)},
   author       = {{California Digital Library}},
   organization = {DMPTool},
-  year         = {2026},
-  url          = {https://github.com/CDLUC3/dmptool/wiki/DMP-IDs-and-Networked-Data-Management-Plans-(maDMPs)}
+  url          = {https://github.com/CDLUC3/dmptool/wiki/DMP-IDs-and-Networked-Data-Management-Plans-(maDMPs)},
+  urldate      = {2026-10-13}
 }
 
 @misc{datacite_dmpid,
   title        = {What is a {DMP} {ID}?},
   author       = {{DataCite}},
-  year         = {2026},
-  url          = {https://support.datacite.org/docs/what-is-a-dmp-id}
+  url          = {https://support.datacite.org/docs/what-is-a-dmp-id},
+  urldate      = {2026-10-13}
 }
 
 @misc{rda_dmp_standard,
   title        = {{RDA} {DMP} Common Standard for Machine-Actionable Data Management Plans},
   author       = {{Research Data Alliance DMP Common Standards Working Group}},
-  year         = {2026},
   url          = {https://rda-dmp-common.github.io/RDA-DMP-Common-Standard/},
+  urldate      = {2026-10-13},
   note         = {Interoperability model for expressing DMP content in structured, machine-actionable form. Does not itself impose funder business rules.}
 }
 
 @misc{ucla_brand_colors,
   title        = {Brand Guidelines: Colors},
   author       = {{UCLA Strategic Communications}},
-  year         = {2026},
   url          = {https://brand.ucla.edu/identity/colors}
 }
 
 @misc{craigslist_tos,
   title        = {Terms of Use},
   author       = {{craigslist, Inc.}},
-  year         = {2026},
+  year         = {2019},
   url          = {https://www.craigslist.org/about/terms.of.use/en},
-  note         = {Prohibits automated or manual collection of Craigslist content by robots, scripts, scrapers, or their manual equivalent.}
+  urldate      = {2026-10-13},
+  note         = {Page states "last updated August 16, 2019". Prohibits collecting content via robots, spiders, scripts, scrapers, crawlers, or any automated or manual equivalent (e.g., by hand).}
 }
 
 @misc{redivis_docs,
   title        = {Redivis Documentation},
   author       = {{Redivis}},
-  year         = {2026},
-  url          = {https://docs.redivis.com/}
+  url          = {https://docs.redivis.com/},
+  urldate      = {2026-10-13}
 }
 
 @misc{cdl_dryad,
-  title        = {Dryad at the California Digital Library},
+  title        = {Dryad},
   author       = {{California Digital Library}},
-  year         = {2026},
   url          = {https://cdlib.org/services/uc3/dryad/},
-  note         = {Dryad datasets are archived long-term through the CoreTrustSeal-certified Merritt repository.}
+  urldate      = {2026-10-13},
+  note         = {UC researchers can deposit at no cost through institutional membership. Dryad datasets are preserved in the CoreTrustSeal-certified Merritt repository.}
+}
+
+@misc{cdl_merritt,
+  title        = {Merritt},
+  author       = {{California Digital Library}},
+  url          = {https://cdlib.org/services/uc3/merritt/},
+  urldate      = {2026-10-13},
+  note         = {CoreTrustSeal certified digital preservation repository with a deposit interface, API and batch deposit, and account- and collection-based access.}
 }
 
 @misc{ucla_dataverse_re3data,
   title        = {{UCLA} Dataverse},
   author       = {{re3data.org}},
-  year         = {2026},
-  url          = {https://www.re3data.org/repository/r3d100010703}
+  doi          = {10.17616/R3131H},
+  url          = {https://www.re3data.org/repository/r3d100010703},
+  urldate      = {2026-10-13}
 }
 
 @misc{lc_dmp101,
-  title        = {Data Management Plans ({DMP101})},
-  author       = {{Library Carpentry}},
-  year         = {2022},
-  url          = {https://librarycarpentry.org/},
-  note         = {CC BY 4.0. Source lesson this deck's practical framing is adapted from.}
+  title        = {Data Management (and Sharing) Plans for Librarians 101},
+  author       = {Bohman, Lena and Hertz, Marla and Orlowska, Daria},
+  year         = {2025},
+  howpublished = {Library Carpentry},
+  url          = {https://librarycarpentry.org/lc-dmp101/},
+  note         = {Version 1.0.0, released December 23, 2025. CC BY 4.0. Source lesson this deck's practical framing is adapted from.}
 }
 
 @misc{dennis_jamison_2025,
-  title        = {Data Management Plans and the Role of Libraries ({IS} 262A Guest Lecture)},
+  title        = {Data Management Plans ({DMP}) and the Role of Libraries},
   author       = {Dennis, Tim and Jamison, Jamie},
   year         = {2025},
   howpublished = {Zenodo},
   doi          = {10.5281/zenodo.17360886},
-  note         = {Archived 2025 version. This 2026 deck is a revised edition; the DOI identifies the 2025 source only.}
+  note         = {Published October 15, 2025. Archived 2025 version of the IS 262A guest lecture. This 2026 deck is a revised edition; the DOI identifies the 2025 source only.}
 }
